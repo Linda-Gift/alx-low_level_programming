@@ -4,14 +4,13 @@
  * print_alphabet -> prints the lowercase alphabets
  */
 
-int main (void)
+void print_alphabet(void)
 {
-int x;
+	int j;
 
-for (x = 97; x <= 122; x++)
-{
-putchar(x);
-}
-putchar(10);
-return (0);
+	for (j = 'a'; j <= 'z'; j++)
+	{
+		_putchar(j);
+	}
+	_putchar('\n');
 }
