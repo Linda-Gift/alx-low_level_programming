@@ -7,6 +7,7 @@
  *
  * Return: the minimum number
  */
+
 size_t min(size_t a, size_t b)
 {
 	return ((a < b) ? a : b);
@@ -51,4 +52,3 @@ int jump_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
-
